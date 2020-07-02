@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="pregunta1">¿De que pais es la bandera?</string>
+    <string name="rpt1delapregunta1">Letonia</string>
+    <string name="respuestaenviada">Respuesta enviada</string>
+    <string name="pregunta2">¿Que paises goberno CarlosV?</string>
+    <string name="rpt1delapregunta2">España</string>
+    <string name="rpt2delapregunta2">Inglaterra</string>
+    <string name="rpt3delapregunta2">Turkia</string>
+    <string name="rpt4delapregunta2">Irlanda</string>
+    <string name="pregunta3">¿Quien fue el primero en usar el dolar?</string>
+    <string name="rpt1delapregunta3">Estados unidos</string>
+    <string name="rpt2delapregunta3">Canada</string>
+    <string name="rpt3delapregunta3">España</string>
+    <string name="rpt4delapregunta3">Zimbabue</string>
+    <string name="pregunta4">¿En que año se fundo la ciudad de Arequipa?</string>
+    <string name="enviarclick">enviar</string>
+    <string name="puntuacion">puntuación</string>
+    <string name="surespuesta">Cuestionario terminado, revise su puntaje </string>
+    <string name="respuestascorrectas">Respuestas correctas</string>
+    <string name="respuestasinco">Respuestas incorrectas</string>
+</resources>

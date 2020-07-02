@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="94dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/bandera" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pregunta1" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/botones"
+                android:text="@string/rpt1delapregunta1"
+                android:onClick="latviaclick"
+                />
+
+            <Button
+                style="@style/botones"
+                android:text="@string/rpt2delapregunta1"
+                android:onClick="peruclick"
+                />
+
+            <Button
+                style="@style/botones"
+                android:text="@string/rpt3delapregunta1"
+                android:onClick="canadaclick"
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="94dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/carlosv" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta2"
+            android:layout_gravity="center"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/espana"
+            android:text="@string/rpt1delapregunta2"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/inglaterra"
+            android:text="@string/rpt2delapregunta2"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/romano"
+            android:text="@string/rpt3delapregunta2"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/irlanda"
+            android:text="@string/rpt4delapregunta2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="94dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/dinero"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta3"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rpt1delapregunta3"
+                android:layout_gravity="center"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rpt2delapregunta3"
+                android:layout_gravity="center"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rpt3delapregunta3"
+                android:layout_gravity="center"
+                android:id="@+id/radio_espania"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rpt4delapregunta3"
+                android:layout_gravity="center"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pregunta4"
+            android:id="@+id/arequipa_pregunta"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:text="@string/enviarclick"
+            android:onClick="enviarc"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:text="@string/puntuacion"
+            android:onClick="revisar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

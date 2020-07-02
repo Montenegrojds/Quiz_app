@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="pregunta1">From what country is the flag?</string>
+    <string name="rpt1delapregunta1">Latvia</string>
+    <string name="rpt2delapregunta1">Peru</string>
+    <string name="rpt3delapregunta1">Canada</string>
+    <string name="rpt4delapregunta1">Austria</string>
+    <string name="respuestaenviada">Answer sent</string>
+    <string name="surespuesta">Quiz end,check your score</string>
+    <string name="pregunta2">What places CarlosV  was the ruler?</string>
+    <string name="rpt1delapregunta2">Spain</string>
+    <string name="rpt2delapregunta2">England</string>
+    <string name="rpt3delapregunta2">Turkey</string>
+    <string name="rpt4delapregunta2">Ireland</string>
+    <string name="pregunta3">Who was the first to use the dollar?</string>
+    <string name="rpt1delapregunta3">United States</string>
+    <string name="rpt2delapregunta3">Canada</string>
+    <string name="rpt3delapregunta3">Spain</string>
+    <string name="rpt4delapregunta3">Zimbabwe</string>
+    <string name="pregunta4">In what year the city of Arequipa was founded?</string>
+    <string name="enviarclick">Send</string>
+    <string name="puntuacion">punctuation</string>
+    <string name="respuestascorrectas">Correct answers</string>
+    <string name="respuestasinco">Wrong  answers</string>
+
+
+</resources>
